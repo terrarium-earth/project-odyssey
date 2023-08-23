@@ -1,39 +1,44 @@
 ---
-sidebar_position: 2
 displayed_sidebar: cadmus
 ---
 
-# Admin flag commands
+# Admin Flag Commands
+
+## Flag Set Command
 
 ```text
-/claim admin flag set [id] [flag] [value]
+/cadmus adminclaims flag set <id> <flag> <value>
 ```
 Sets a flag for an admin claim
-- `id` the identifier for the admin claim. This is going to be the claim that the flag is set for.
+- `id` the identifier for the admin claim.
 - `flag` the name of the flag to be set.
 - `value` the value to set the flag to.
 
-```text
-/claim admin flag remove [id] [flag]
-```
-Removes a flag from an admin claim
-- `id` the identifier for the admin claim. This is going to be the claim that the flag is removed from.
-- `flag` the name of the flag to be removed.
+## Flag Remove Command
 
 ```text
-/claim admin flag list [id]
+/cadmus adminclaims flag remove <id> <flag>
 ```
-Lists all flags for an admin claim
-- `id` the identifier for the admin claim. This is going to be the claim that the flags are listed for.
+Removes a flag from an admin claim
+- `id` the identifier for the admin claim.
+- `flag` the name of the flag to be removed.
+
+## Flag List Command
+
+```text
+/cadmus adminclaims flag list <id>
+```
+Lists all flags for an admin claim group
+- `id` the identifier for the admin claim.
 
 ## List of Flags
 
 - `allow-entry`
-  - Determines if entry is allowed.
+  - Determines if entry is allowed. Attempting to enter will teleport the player out of the claim.
   - Accepts `true` or `false`. Default is `true`.
 
 - `allow-exit`
-  - Determines if exit is allowed.
+  - Determines if exit is allowed. Attempting to exit will teleport the player back into the claim.
   - Accepts `true` or `false`. Default is `true`.
 
 - `block-break`
@@ -125,36 +130,36 @@ Lists all flags for an admin claim
   - Accepts `true` or`false`. Default is `true`.
 
 - `use`
-  - Determines if usage of items is allowed.
+  - Determines if item usage is allowed.
   - Accepts `true` or `false`. Default is `true`.
 
 - `use-chests`
-  - Determines if usage of chests is allowed.
+  - Determines if chests can be opened.
   - Accepts `true` or `false`. Default is `true`.
 
 - `use-doors`
-  - Determines if usage of doors is allowed.
+  - Determines if doors can be opened.
   - Accepts `true` or `false`. Default is `true`.
 
 - `use-redstone`
-  - Determines if usage of redstone is allowed.
+  - Determines if redstone activation is allowed.
   - Accepts `true` or `false`. Default is `true`.
 
 - `use-vehicles`
-  - Determines if usage of vehicles is allowed.
+  - Determines if vehicles can be mounted on.
   - Accepts `true` or `false`. Default is `true`.
 
 - `feed-rate`
-  - Determines the rate of feeding.
+  - Feeds the player a certain amount every second.
   - Accepts any decimal point number. Default is `0.0`.
 
 - `heal-rate`
-  - Determines the rate of healing.
+  - heals a specified amount every second.
   - Accepts any decimal point number. Default is `0.0`.
 
 - `display-name`
-  - Determines the display name of the claim.
-  - Accepts any [text component](https://minecraft.tools/en/json_text.php). Default is `empty`.
+  - Determines the display name of the claim. All new admin claims will have this flag set to the claim's ID by default.
+  - Accepts any [text component](https://minecraft.tools/en/json_text.php). Default is the claim's ID.
 
 - `entry-deny-message`
   - Determines the message displayed when entry is denied.

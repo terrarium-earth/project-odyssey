@@ -10,7 +10,7 @@ and required dependencies are available for both Forge and Fabric.
 :::tip Quilt support
 While Quilt is not explicitly supported, it has not been tested and may not be
 compatible. If you find an issue with Quilt, or the mod in general, please use the
-[Prometheus Github](https://github.com/terrarium-earth/Prometheus)
+[Prometheus GitHub](https://github.com/terrarium-earth/Prometheus)
 :::
 
 ## Downloading
@@ -42,5 +42,5 @@ Prometheus requires the following mods to be installed:
 Prometheus has the following optional dependencies:
 
 > ### Roughly Enough Items
-> - [Modrinth](https://modrinth.com/mod/roughly-enough-items)
+> - [Modrinth](https://modrinth.com/mod/rei)
 > - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items)

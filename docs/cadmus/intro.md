@@ -11,13 +11,46 @@ and required dependencies are available for both Forge and Fabric.
 :::tip Quilt support
 While Quilt is not explicitly supported, it has not been tested and may not be
 compatible. If you find an issue with Quilt, or the mod in general, please use the
-[Cadmus Github](https://github.com/terrarium-earth/Cadmus)
+[Cadmus GitHub](https://github.com/terrarium-earth/Cadmus)
 :::
 
-## Getting Started
+## Downloading
 
-Get started by installing Cadmus and its dependencies
+Get started by installing Cadmus. Cadmus is required on the server and optional on the client.
 
-- Download Cadmus from [Modrinth](https://modrinth.com/mod/cadmus) (Curseforge coming soon)
-  - Resourceful Lib is also required. Install it with [Modrinth](https://modrinth.com/mod/resourceful-lib) or [Curseforge](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib)
-- Optionally, Cadmus has integration with **Argonauts** to claim chunks as a team. It's available on [Modrinth](https://modrinth.com/mod/argonauts)
+- [Modrinth](https://modrinth.com/mod/cadmus)
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cadmus)
+
+## Dependencies
+
+Cadmus requires the following mods to be installed:
+
+> ## Forge
+> - Resourceful Lib
+>   - [Modrinth](https://modrinth.com/mod/resourceful-lib)
+>   - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib)
+
+> ## Fabric
+> - Resourceful Lib
+>   - [Modrinth](https://modrinth.com/mod/resourceful-lib)
+>   - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib)
+> - Fabric API
+>   - [Modrinth](https://modrinth.com/mod/fabric-api)
+>   - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
+
+## Optional Dependencies
+
+Cadmus has the following optional dependencies:
+
+> ### Argonauts
+> - [Modrinth](https://modrinth.com/mod/argonauts)
+> - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/argonauts)
+> ### Prometheus
+> - [Modrinth](https://modrinth.com/mod/prometheus)
+> - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/prometheus)
+> ### JourneyMap
+> - [Modrinth](https://modrinth.com/mod/journeymap)
+> - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/journeymap)
+> ### Roughly Enough Items
+> - [Modrinth](https://modrinth.com/mod/rei)
+> - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items)

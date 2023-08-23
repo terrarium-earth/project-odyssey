@@ -52,17 +52,28 @@ const sidebars = {
     cadmus: [
         'cadmus/intro',
         {
+            'Player Claims': [
+                'cadmus/player-claims/map',
+                'cadmus/player-claims/commands',
+                'cadmus/player-claims/settings',
+                'cadmus/player-claims/teams',
+            ],
+        },
+        {
             'Admin Claims': [
-                'cadmus/admin/admin-claims',
-                'cadmus/admin/region-flags',
+                'cadmus/admin-claims/admin-claims',
+                'cadmus/admin-claims/commands',
+                'cadmus/admin-claims/flags',
             ]
         },
         {
-            'Player Claims': [
-                'cadmus/player/claim-ui',
-                'cadmus/player/claim-command'
+            'Admin Tools': [
+                'cadmus/admin-tools/commands',
+                'cadmus/admin-tools/gamerules',
+                'cadmus/admin-tools/tags',
+                'cadmus/admin-tools/prometheus',
             ]
-        }
+        },
     ],
 };
 
