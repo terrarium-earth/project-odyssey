@@ -75,6 +75,42 @@ const sidebars = {
             ]
         },
     ],
+    argonauts: [
+        'argonauts/intro',
+        {
+            'Parties': [
+                'argonauts/parties/parties',
+                {
+                    'Commands': [
+                        'argonauts/parties/commands/management',
+                        'argonauts/parties/commands/chat',
+                        'argonauts/parties/commands/members',
+                        'argonauts/parties/commands/settings',
+                        'argonauts/parties/commands/ignore',
+                        'argonauts/parties/commands/tp',
+                    ],
+                },
+            ],
+            'Guilds': [
+                'argonauts/guilds/guilds',
+                {
+                    'Commands': [
+                        'argonauts/guilds/commands/management',
+                        'argonauts/guilds/commands/chat',
+                        'argonauts/guilds/commands/hq',
+                        'argonauts/guilds/commands/members',
+                        'argonauts/guilds/commands/settings',
+                        'argonauts/guilds/commands/fake-players',
+                        'argonauts/guilds/commands/admin',
+                    ],
+                },
+                'argonauts/guilds/cadmus',
+                'argonauts/guilds/heracles',
+            ],
+        },
+        'argonauts/chat',
+        'argonauts/placeholder-api',
+    ]
 };
 
 module.exports = sidebars;
