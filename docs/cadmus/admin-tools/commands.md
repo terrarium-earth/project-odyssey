@@ -18,11 +18,11 @@ Lists all teams and their IDs.
 /cadmus admin claim <id> <pos> <chunkload>
 ```
 Claims a chunk on behalf of another player or team.
-- `id` the identifier for the team. IDs with a `p` prefix are player claims, IDs with a `t` prefix are team claims, and IDs with an `a` prefix are admin claims.
+- `id`: The identifier for the team. IDs with a `p` prefix are player claims, IDs with a `t` prefix are team claims, and IDs with an `a` prefix are admin claims.
 Use `/cadmus admin list` to see a list of teams mapped to their IDs.
-- `pos` the chunk position to claim. This parameter is **optional**.
+- `pos`: The chunk position to claim. This parameter is **optional**.
   If not specified, it will claim the player's current position.
-- `chunkload` whether the claim is chunk loaded or not. This parameter is **optional**.
+- `chunkload`: Whether the claim is chunk loaded or not. This parameter is **optional**.
   If not specified, the chunk will not be loaded.
 
 ## Unclaim Command
@@ -32,9 +32,9 @@ Use `/cadmus admin list` to see a list of teams mapped to their IDs.
 ```
 
 Unclaims a chunk on behalf of another player or team.
-- `id` the identifier for the team. This parameter is **optional**.
+- `id`: The identifier for the team. This parameter is **optional**.
 If not specified, it will unclaim whatever team's claim is at the player's current position.
-- `pos` the chunk position to unclaim. This parameter is **optional**.
+- `pos`: The chunk position to unclaim. This parameter is **optional**.
   If not specified, it will unclaim the player's current position.
 
 ## Clear Command
@@ -61,12 +61,12 @@ Completely removes all claims from the server. This will also remove all admin c
 /cadmus admin defaultsettings <setting> <value>
 ```
 
-modifies the default settings for player claims. (see [Claim Settings](/cadmus/player-claims/settings.md) for more information)
-- `setting` the default setting to modify. Valid settings are:
+Modifies the default settings for player claims. (see [Claim Settings](/cadmus/player-claims/settings.md) for more information).
+- `setting`: The default setting to modify. Valid settings are:
   - `canBreak`
   - `canDamageEntities`
   - `canExplode`
   - `canInteractWithBlocks`
   - `canInteractWithEntities`
   - `canPlace`
-- `value` the value to set the default setting to. Can be true or false and is false by default, meaning that all claims will be protected by default.
+- `value`: The value to set the default setting to. Can be true or false and is false by default, meaning that all claims will be protected by default.

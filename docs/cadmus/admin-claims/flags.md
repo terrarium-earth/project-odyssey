@@ -10,9 +10,9 @@ displayed_sidebar: cadmus
 /cadmus adminclaims flag set <id> <flag> <value>
 ```
 Sets a flag for an admin claim
-- `id` the identifier for the admin claim.
-- `flag` the name of the flag to be set.
-- `value` the value to set the flag to.
+- `id`: The identifier for the admin claim.
+- `flag`: The name of the flag to be set.
+- `value`: The value to set the flag to.
 
 ## Flag Remove Command
 
@@ -20,8 +20,8 @@ Sets a flag for an admin claim
 /cadmus adminclaims flag remove <id> <flag>
 ```
 Removes a flag from an admin claim
-- `id` the identifier for the admin claim.
-- `flag` the name of the flag to be removed.
+- `id`: The identifier for the admin claim.
+- `flag`: The name of the flag to be removed.
 
 ## Flag List Command
 
@@ -29,7 +29,7 @@ Removes a flag from an admin claim
 /cadmus adminclaims flag list <id>
 ```
 Lists all flags for an admin claim group
-- `id` the identifier for the admin claim.
+- `id`: The identifier for the admin claim.
 
 ## List of Flags
 

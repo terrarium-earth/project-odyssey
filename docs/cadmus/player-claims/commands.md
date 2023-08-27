@@ -10,9 +10,9 @@ displayed_sidebar: cadmus
 /claim <pos> <chunkload>
 ```
 Claims a chunk of land
-- `pos` the chunk position to claim. This parameter is **optional**.
+- `pos`: The chunk position to claim. This parameter is **optional**.
   If not specified, it will claim the player's current position.
-- `chunkload` whether the claim is chunk loaded or not. This parameter is **optional**.
+- `chunkload`: Whether the claim is chunk loaded or not. This parameter is **optional**.
   If not specified, the chunk will not be loaded.
 
 ## Claim Info Command
@@ -24,7 +24,7 @@ Provides information about a claim at the specified position. This information i
 - If the chunk is unclaimed, a message indicating that the chunk is unclaimed.
 - If the chunk is claimed, the name of the team or player who claimed the chunk, the type of claim (team, player, or admin), and whether the chunk is chunk loaded or not.
 - The location of the chunk (its x and z coordinates).
-- `pos` the position of the chunk to get information from. This parameter is **optional**.
+- `pos`: The position of the chunk to get information from. This parameter is **optional**.
   If not specified, the action will be performed at the location the player
   executed the command.
 
@@ -34,5 +34,5 @@ Provides information about a claim at the specified position. This information i
 /unclaim <pos>
 ```
 Unclaims a chunk of land
-- `pos` the chunk position to unclaim. This parameter is **optional**.
+- `pos`: The chunk position to unclaim. This parameter is **optional**.
   If not specified, it will unclaim the player's current position.
