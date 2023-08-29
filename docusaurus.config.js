@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.terrarium.earth',
+  url: 'https://terrarium-earth.github.io/Odyssey-Docs',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -20,8 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'terrarium-earth', // Usually your GitHub org/user name.
   projectName: 'Odyssey-Docs', // Usually your repo name.
-  deploymentBranch: 'prod',
-  trailingSlash: true,
+  trailingSlash: false,
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
