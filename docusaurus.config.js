@@ -14,12 +14,12 @@ const config = {
   url: 'https://docs.terrarium.earth',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/project-odyssey/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'terrarium-earth', // Usually your GitHub org/user name.
-  projectName: 'Odyssey-Docs', // Usually your repo name.
+  projectName: 'project-odyssey', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'warn',
