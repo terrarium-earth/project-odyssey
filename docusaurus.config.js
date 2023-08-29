@@ -19,9 +19,10 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'terrarium-earth', // Usually your GitHub org/user name.
-  projectName: 'terrarium-docs', // Usually your repo name.
+  projectName: 'project-odyssey', // Usually your repo name.
+  trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
