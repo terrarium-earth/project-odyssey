@@ -63,7 +63,7 @@ const config = {
           {to: '/docs/cadmus/intro', label: 'Cadmus', position: 'left'},
           {to: '/docs/prometheus/intro', label: 'Prometheus', position: 'left'},
           // {to: '/docs/heracles/intro', label: 'Heracles', position: 'left'},
-          // {to: '/docs/hermes/intro', label: 'Hermes', position: 'left'},
+          {to: '/docs/hermes/intro', label: 'Hermes', position: 'left'},
           {to: '/docs/argonauts/intro', label: 'Argonauts', position: 'left'},
           // {to: '/docs/odysseus/intro', label: 'Odysseus', position: 'left'},
           {
@@ -90,6 +90,10 @@ const config = {
               {
                 label: 'Argonauts',
                 to: '/docs/argonauts/intro',
+              },
+              {
+                label: 'Hermes',
+                to: '/docs/hermes/intro',
               },
             ],
           },

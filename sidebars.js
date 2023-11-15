@@ -110,6 +110,18 @@ const sidebars = {
         },
         'argonauts/chat',
         'argonauts/placeholder-api',
+    ],
+    hermes: [
+        'hermes/intro',
+        {
+            'Elements': [
+                'hermes/elements/br',
+                'hermes/elements/blockquote',
+            ],
+            'Attributes': [
+                'hermes/attributes/color',
+            ],
+        },
     ]
 };
 
