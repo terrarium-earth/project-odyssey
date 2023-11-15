@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Terrarium Docs',
   tagline: 'Documenting Terrarium\' latest and greatest mods',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/terrarium.ico',
 
   // Set the production url of your site here
   url: 'https://docs.terrarium.earth',
@@ -52,7 +52,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/proj-odyssey.png',
+      image: 'img/social-card.png',
       navbar: {
         title: 'Terrarium',
         logo: {
@@ -62,10 +62,10 @@ const config = {
         items: [
           {to: '/docs/cadmus/intro', label: 'Cadmus', position: 'left'},
           {to: '/docs/prometheus/intro', label: 'Prometheus', position: 'left'},
-          {to: '/docs/heracles/intro', label: 'Heracles', position: 'left'},
+          // {to: '/docs/heracles/intro', label: 'Heracles', position: 'left'},
           {to: '/docs/hermes/intro', label: 'Hermes', position: 'left'},
           {to: '/docs/argonauts/intro', label: 'Argonauts', position: 'left'},
-          {to: '/docs/odysseus/intro', label: 'Odysseus', position: 'left'},
+          // {to: '/docs/odysseus/intro', label: 'Odysseus', position: 'left'},
           {
             href: 'https://github.com/terrarium-earth',
             label: 'GitHub',
@@ -81,38 +81,46 @@ const config = {
             items: [
               {
                 label: 'Cadmus',
-                to: '/docs/intro',
+                to: '/docs/cadmus/intro',
+              },
+              {
+                label: 'Prometheus',
+                to: '/docs/prometheus/intro',
+              },
+              {
+                label: 'Argonauts',
+                to: '/docs/argonauts/intro',
+              },
+              {
+                label: 'Hermes',
+                to: '/docs/hermes/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Socials',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Twitter',
+                href: 'https://twitter.terrarium.earth',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://discord.terrarium.earth',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Development',
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.terrarium.earth',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Terrarium, Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Terrarium Earth. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
