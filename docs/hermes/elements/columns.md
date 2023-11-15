@@ -58,7 +58,7 @@ The following will show 3 columns, with widths of 40%, 20%, and 40% respectively
 
 ## Related Elements
 
-[`<column>`](../elements/column)
+- [`<column>`](../elements/column)
 
 ## Version History
 

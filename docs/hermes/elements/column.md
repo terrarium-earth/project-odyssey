@@ -29,7 +29,7 @@ The following will show 2 columns, each with 3 lines of text.
 
 ## Related Elements
 
-[`<columns>`](../elements/columns)
+- [`<columns>`](../elements/columns)
 
 ## Version History
 

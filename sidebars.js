@@ -115,11 +115,32 @@ const sidebars = {
         'hermes/intro',
         {
             'Elements': [
-                'hermes/elements/br',
                 'hermes/elements/blockquote',
+                'hermes/elements/br',
+                'hermes/elements/carousel',
+                'hermes/elements/carousel-item',
+                'hermes/elements/column',
+                'hermes/elements/columns',
+                'hermes/elements/component',
+                'hermes/elements/crafting-recipe',
+                'hermes/elements/details',
+                'hermes/elements/entity',
+                'hermes/elements/headings',
+                'hermes/elements/hint',
+                'hermes/elements/hr',
+                'hermes/elements/img',
+                'hermes/elements/li',
+                'hermes/elements/ol',
+                'hermes/elements/p',
+                'hermes/elements/ul',
             ],
             'Attributes': [
                 'hermes/attributes/color',
+                {
+                    'Global Attributes': [
+                        'hermes/global_attributes/text_attributes',
+                    ],
+                }
             ],
         },
     ]

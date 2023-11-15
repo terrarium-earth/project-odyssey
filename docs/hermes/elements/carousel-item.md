@@ -28,7 +28,7 @@ The following will show a carousel with 3 items.
 
 ## Related Elements
 
-[`<carousel>`](../elements/carousel)
+- [`<carousel>`](../elements/carousel)
 
 ## Version History
 

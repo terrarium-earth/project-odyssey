@@ -41,7 +41,7 @@ The `<carousel>` element can only contain `<carousel-item>` elements.
 
 ## Related Elements
 
-[`<carousel-item>`](../elements/carousel-item)
+- [`<carousel-item>`](../elements/carousel-item)
 
 ## Version History
 
