@@ -11,7 +11,7 @@ The `<img>` element is used to display an image.
 ## Attributes
 
 `src`
-> The source of the image, in resource location format. Example: `minecraft:textures/items/diamond_sword.png`.
+> The source of the image, in resource location format. Example: `minecraft:textures/item/diamond_sword.png`.
 
 `width`
 > The width of the image. Defaults to 0.
@@ -36,7 +36,7 @@ The `<img>` element is used to display an image.
 The following example will display a diamond sword.
 
 ```html
-<img src="minecraft:textures/items/diamond_sword.png" width="16" height="16"/>
+<img src="minecraft:textures/item/diamond_sword.png" width="16" height="16"/>
 ```
 
 ## Version History

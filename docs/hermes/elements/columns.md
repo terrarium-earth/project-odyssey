@@ -56,6 +56,11 @@ The following will show 3 columns, with widths of 40%, 20%, and 40% respectively
 </columns>
 ```
 
+## Restrictions
+
+- The `<columns>` element must contain only `<column>` elements.
+- The `<columns` element cannot contain more than 3 `<column>` elements.
+
 ## Related Elements
 
 - [`<column>`](../elements/column)
