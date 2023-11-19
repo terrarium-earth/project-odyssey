@@ -15,6 +15,9 @@ This element will always be 50 in height and follow the users mouse.
 > The type of entity to display.
 > The entity must be a living entity.
 
+`tag`
+> The nbt tag of the entity to display.
+
 ## Examples
 
 The following example will display a cow.
@@ -25,6 +28,7 @@ The following example will display a cow.
 
 ## Version History
 
-| Version | Changes |
-| ------- | ------- |
-| 1.0     | Initial release. |
+| Version | Changes                      |
+|---------|------------------------------|
+| 1.3     | Allowed for `tag` attribute. |
+| 1.0     | Initial release.             |

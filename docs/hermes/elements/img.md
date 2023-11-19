@@ -26,21 +26,22 @@ The `<img>` element is used to display an image.
 > The v coordinate of the image. Defaults to 0.
 
 `textureWidth`
-> The width of the texture. Defaults to height.
+> The width of the texture. Defaults to src width.
 
 `textureHeight`
-> The height of the texture. Defaults to width.
+> The height of the texture. Defaults to src height.
 
 ## Examples
 
 The following example will display a diamond sword.
 
 ```html
-<img src="minecraft:textures/item/diamond_sword.png" width="16" height="16"/>
+<img src="minecraft:textures/item/diamond_sword.png" width="32" height="32"/>
 ```
 
 ## Version History
 
-| Version | Changes          |
-|---------|------------------|
-| 1.0     | Initial release. |
+| Version | Changes                                               |
+|---------|-------------------------------------------------------|
+| 1.3     | Changed to use src width and height if not specified. |
+| 1.0     | Initial release.                                      |
