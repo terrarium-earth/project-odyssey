@@ -128,6 +128,7 @@ const sidebars = {
                 'hermes/elements/headings',
                 'hermes/elements/hint',
                 'hermes/elements/hr',
+                'hermes/elements/item',
                 'hermes/elements/img',
                 'hermes/elements/li',
                 'hermes/elements/ol',
