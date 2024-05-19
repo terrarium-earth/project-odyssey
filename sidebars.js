@@ -133,6 +133,43 @@ const sidebars = {
                 'hermes/elements/ol',
                 'hermes/elements/p',
                 'hermes/elements/ul',
+                {
+                    'Text': [
+                        'hermes/elements/text',
+                        'hermes/elements/text/aqua',
+                        'hermes/elements/text/black',
+                        'hermes/elements/text/blue',
+                        'hermes/elements/text/dark_aqua',
+                        'hermes/elements/text/dark_blue',
+                        'hermes/elements/text/dark_gray',
+                        'hermes/elements/text/dark_green',
+                        'hermes/elements/text/dark_purple',
+                        'hermes/elements/text/dark_red',
+                        'hermes/elements/text/gold',
+                        'hermes/elements/text/gray',
+                        'hermes/elements/text/green',
+                        'hermes/elements/text/light_purple',
+                        'hermes/elements/text/red',
+                        'hermes/elements/text/white',
+                        'hermes/elements/text/yellow',
+
+                        'hermes/elements/text/color',
+                        'hermes/elements/text/span',
+
+                        'hermes/elements/text/reset',
+                        'hermes/elements/text/obfuscated',
+                        'hermes/elements/text/bold',
+                        'hermes/elements/text/strikethrough',
+                        'hermes/elements/text/underline',
+                        'hermes/elements/text/italic',
+
+                        'hermes/elements/text/clipboard',
+                        'hermes/elements/text/translate',
+                        'hermes/elements/text/item',
+                        'hermes/elements/text/keybind',
+                        'hermes/elements/text/link',
+                    ]
+                }
             ],
             'Attributes': [
                 'hermes/attributes/color',
